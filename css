@@ -3,15 +3,15 @@ header {
     display: grid;
     grid-template-columns: 110px auto;
     padding:1em;
+    backround-color:yellow;
 
  footer {
   padding: 1em;
   text-align:center;
+  backround-color:yellow;
 }
 
  body {
-    
-  background-color:yellow; 
   font-family:sans-serif;
   font-size:1.em; 
  }
