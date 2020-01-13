@@ -23,6 +23,11 @@ h1{
   font-size:2em;
 }
 
+li{
+  font-family:'Fjalla One', sans-serif;
+  font-size:2em;
+}
+
  footer{
   padding:1em;
   text-align:center;
