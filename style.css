@@ -1,18 +1,21 @@
 header{
     align-items: left;
     font-family:'Fjalla One', sans-serif;
-    padding:3em;
+    padding:2em;
     background-color:#539987;
     color:white;
     font-size:3em;
-
+}
 body{
   font-family:'Abel', sans-serif;
   font-size:2em;
 }
+
+
 
  footer{
   padding:1em;
   text-align:center;
   background-color:#539987;
  }
+
