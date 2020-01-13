@@ -1,17 +1,17 @@
-header {
+header{
     align-items: left;
     display: grid;
     grid-template-columns: 110px auto;
     padding:1em;
     background-color:yellow;
 
- footer {
+ footer{
   padding:1em;
   text-align:center;
-  backround-color:yellow;
+  background-color:yellow;
 }
 
- body {
+ body{
   font-family:sans-serif;
   font-size:1.em; 
  }
