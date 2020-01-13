@@ -1,9 +1,10 @@
 header{
     align-items: left;
     font-family:'Fjalla One', sans-serif;
-    padding:1em;
+    padding:3em;
     background-color:#539987;
     color:white;
+    font-size:3em;
 
 body{
   font-family:'Abel', sans-serif;
