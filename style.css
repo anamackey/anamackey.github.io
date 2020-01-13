@@ -3,6 +3,7 @@ header{
     font-family:'Fjalla One', sans-serif;
     padding:1em;
     background-color:#539987;
+    color:white;
 
 body{
   font-family:'Abel', sans-serif;
@@ -12,5 +13,5 @@ body{
  footer{
   padding:1em;
   text-align:center;
-  background-color:yellow;
+  background-color:#539987;
  }
