@@ -1,18 +1,16 @@
 header{
     align-items: left;
-    display: grid;
-    grid-template-columns: 110px auto;
     font-family:'Fjalla One', sans-serif;
     padding:1em;
-    background-color:yellow;
+    background-color:#539987;
+
+body{
+  font-family:'Abel', sans-serif;
+  font-size:2em;
+}
 
  footer{
   padding:1em;
   text-align:center;
   background-color:yellow;
-}
-
- body{
-  font-family:'Abel', sans-serif;
-  font-size:2em; 
  }
