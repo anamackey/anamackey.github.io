@@ -2,6 +2,7 @@ header{
     align-items: left;
     display: grid;
     grid-template-columns: 110px auto;
+    font-family:'Fjalla One', sans-serif;
     padding:1em;
     background-color:yellow;
 
@@ -12,6 +13,6 @@ header{
 }
 
  body{
-  font-family:sans-serif;
-  font-size:1.em; 
+  font-family:'Abel', sans-serif;
+  font-size:2em; 
  }
