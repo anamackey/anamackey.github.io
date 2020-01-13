@@ -1,5 +1,5 @@
 header{
-    align-items: left;
+    align-items: center;
     font-family:'Fjalla One', sans-serif;
     padding:1em;
     background-color:#539987;
@@ -7,6 +7,10 @@ header{
     font-size:3em;
 }
 
+img{
+  align-items: center;
+  padding:1em;
+}
 
 p{ 
   font-family:'Abel', sans-serif;
