@@ -3,7 +3,7 @@ header {
     display: grid;
     grid-template-columns: 110px auto;
     padding:1em;
-    backround-color:yellow;
+    background-color:yellow;
 
  footer {
   padding:1em;
