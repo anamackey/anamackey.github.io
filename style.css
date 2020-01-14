@@ -1,7 +1,10 @@
 
 
 
-
+title{
+  align-items: center;
+  font-family:'Fjalla One', sans-serif;
+}
 
 header{
     align-items: center;
@@ -14,12 +17,13 @@ header{
 
 img{
   align-items: center;
+  max-width: 100%;
   padding:1em;
 }
 
 p{ 
   font-family:'Abel', sans-serif;
-  font-size:2em;
+  font-size:1em;
 }
 
   header{
@@ -34,7 +38,7 @@ h1{
 
 li{
   font-family:'Fjalla One', sans-serif;
-  font-size:2em;
+  font-size:1em;
 }
 
  footer{
