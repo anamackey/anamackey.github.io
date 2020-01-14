@@ -40,9 +40,10 @@ h1{
 }
 
 
-li{
+ul{
   font-family:'Fjalla One', sans-serif;
   font-size:1em;
+  text-align:center;
 }
 
  footer{
