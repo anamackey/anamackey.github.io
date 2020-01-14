@@ -30,6 +30,7 @@ img{
 p{ 
   font-family:'Abel', sans-serif;
   font-size:1em;
+  text-align:center;
 }
 
 
@@ -37,6 +38,7 @@ h1{
   font-family:'Abel', sans-serif;
   font-size:2em;
 }
+
 
 li{
   font-family:'Fjalla One', sans-serif;
