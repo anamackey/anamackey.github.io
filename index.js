@@ -33,7 +33,7 @@ d.getFullYear();
 
 let fulldate = dayName + ", " + monthName + " " + d.getDate()+", " + year;
 
-document.getElementById("currentdate").innerHTML = fullDate;
+document.getElementById("currentdate").textContent = fullDate;
 
 
 
