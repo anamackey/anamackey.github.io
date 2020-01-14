@@ -44,8 +44,12 @@ li{
   font-family:'Abel', sans-serif;
   font-size:1em;
   text-align:center;
-
 }
+
+  ul{
+    align-items:center;
+  }
+
 
  footer{
   text-align:center;
