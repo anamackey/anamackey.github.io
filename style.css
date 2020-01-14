@@ -26,10 +26,6 @@ p{
   font-size:1em;
 }
 
-  header{
-    font-family:'Abel', sans-serif;
-    font-size:2em;
-}
 
 h1{
   font-family:'Abel', sans-serif;
@@ -43,6 +39,7 @@ li{
 
  footer{
   padding:1em;
+  font-size:1em;
   text-align:center;
   background-color:#539987;
  }
