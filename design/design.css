@@ -1,0 +1,61 @@
+
+
+.center-align{
+    text-align:center;
+  }
+  
+  title{
+    align-items: center;
+    font-family:'Fjalla One', sans-serif;
+  }
+  
+  header{
+      align-items: center;
+      font-family:'Fjalla One', sans-serif;
+      padding:1em;
+      background-color:#539987;
+      color:white;
+      font-size:3em;
+  }
+  
+  img{
+    align-items: center;
+    max-width: 100%;
+    padding:1em;
+    box-shadow: 2px 2px 2px 2px #888;
+    border-radius: 5px;
+    margin:1em;
+  }
+  
+  p{ 
+    font-family:'Abel', sans-serif;
+    font-size:1em;
+    text-align:center;
+  }
+  
+  
+  h1{
+    font-family:'Abel', sans-serif;
+    font-size:2em;
+  }
+  
+  
+  li{
+    font-family:'Abel', sans-serif;
+    font-size:1em;
+  }
+  
+    ul{
+      align-items:center;
+    }
+  
+  
+   footer{
+    text-align:center;
+    font-size:1em;
+    padding:1em;
+    background-color:#539987;
+    color:white;
+   }
+  
+  
