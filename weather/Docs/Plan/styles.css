@@ -3,12 +3,12 @@ body {
 }
 
 header {
-    background-color: mediumslateblue;
+    background-color: rgb(23, 129, 216);
     color:white;
 }
 
 footer{
-    background-color: mediumslateblue;
+    background-color: rgb(23, 129, 216);
     text-align:center;
     color:white;
 }
