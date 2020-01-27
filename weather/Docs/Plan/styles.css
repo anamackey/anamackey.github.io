@@ -8,6 +8,7 @@ header {
 
 footer{
     background-color: gold;
+    text-align:center;
 }
 
 h2 {
@@ -22,6 +23,12 @@ ul {
     font-family: 'Abel', sans-serif;
 }
 
+
+nav ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(4em,1fr));
+}
 
 
   /*phone or baseline view*/
