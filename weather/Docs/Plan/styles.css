@@ -3,12 +3,12 @@ body {
 }
 
 header {
-    background-color: lightblue;
+    background-color: mediumslateblue;
     color:white;
 }
 
 footer{
-    background-color: gold;
+    background-color: mediumslateblue;
     text-align:center;
     color:white;
 }
@@ -31,6 +31,7 @@ ul {
 
 nav ul{
     list-style: none;
+    color:white;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(4em,1fr));
 }
