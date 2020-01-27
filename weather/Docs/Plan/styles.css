@@ -1,14 +1,14 @@
 body {
-    background-color: lightgrey;
+    background-color: rgb(146, 143, 143);
 }
 
 header {
-    background-color: rgb(23, 129, 216);
+    background-color: rgb(166, 215, 255);
     color:white;
 }
 
 footer{
-    background-color: rgb(23, 129, 216);
+    background-color: rgb(166, 215, 255);
     text-align:center;
     color:white;
 }
