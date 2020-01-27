@@ -4,11 +4,13 @@ body {
 
 header {
     background-color: lightblue;
+    color:white;
 }
 
 footer{
     background-color: gold;
     text-align:center;
+    color:white;
 }
 
 h2 {
@@ -17,6 +19,7 @@ h2 {
 
 p {
     font-family: 'Abel', sans-serif;
+    color:white;
 }
 
 ul {
