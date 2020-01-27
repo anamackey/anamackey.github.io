@@ -7,5 +7,43 @@ header {
 }
 
 footer{
-    background-color: goldenrod;
+    background-color: gold;
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+}
+
+
+
+
+
+  /*phone or baseline view*/
+
+
+  main{
+    display:grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+/* tablet views*/
+
+@media only screen and (min-width:37.5em) {
+
+  main{
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* desktop views*/
+
+@media only screen and (min-width:60em) {
+
+ main{
+     grid-template-columns: 1fr 1fr 1fr;
+ }
 }
