@@ -32,8 +32,8 @@ ul {
 nav ul{
     list-style: none;
     color:white;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(4em,1fr));
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
