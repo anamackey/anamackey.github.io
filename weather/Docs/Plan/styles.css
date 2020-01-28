@@ -41,9 +41,7 @@ nav ul{
 
 
   main{
-    display:grid;
-    grid-template-columns: 1fr;
-    font-size: 0.8rem;
+    flex-direction: column;
 }
 /* tablet views*/
 
@@ -54,7 +52,7 @@ nav{
 }
 
   main{
-      grid-template-columns: 1fr 1fr;
+    flex-direction: column;
     
   }
 }
