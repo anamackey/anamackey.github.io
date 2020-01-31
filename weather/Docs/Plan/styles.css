@@ -7,10 +7,19 @@ header {
     color:white;
 }
 
+.companyname{
+    font-family: 'Fjalla One', sans-serif;
+    color:white;
+    text-align: center;
+    
+}
+
 footer{
     background-color: rgb(156, 203, 241);
     text-align:center;
     color:white;
+   /* position: fixed
+    /*z-index: inherit;*/
 }
 
 h2 {
