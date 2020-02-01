@@ -48,8 +48,11 @@ nav ul{
 
   /*phone or baseline view*/
 
-
-  main{
+  nav{
+    display: flex;
+    flex-direction: column;
+  }
+  main {
     display: flex;
     flex-direction: column;
 }
