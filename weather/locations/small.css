@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(168, 166, 166);
+}
+
+header {
+    background-color: rgb(156, 203, 241);
+    color:white;
+}
+
+h1{
+ color:rgb(255, 255, 255);
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    color:white;
+}
+
+nav ul{
+    list-style: none;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+  /*phone or baseline view*/
+  @media screen and (max-width:37.5em) {
+  
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+ 
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  .box0{
+    height: 50px;
+    width: 50px;
+    border: 15px solid whitesmoke;
+    padding: 50px;
+    margin: 20px;
+    font-family: 'Abel', sans-serif;
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    border: 15px solid whitesmoke;
+    padding: 50px;
+    margin: 20px;
+    font-family: 'Abel', sans-serif;
+}
+
+.box2{
+    height: 100px;
+    width: 100px;
+    border: 15px solid whitesmoke;
+    padding: 50px;
+    margin: 20px;
+    font-family: 'Abel', sans-serif;
+}
+
+.box3{
+    height: 100px;
+    width: 100px;
+    border: 15px solid whitesmoke;
+    padding: 50px;
+    margin: 20px;
+    font-family: 'Abel', sans-serif;
+}
+
+.box4{
+    height: 100px;
+    width: 100px;
+    border: 15px solid whitesmoke;
+    padding: 50px;
+    margin: 20px;
+    font-family: 'Abel', sans-serif;
+}
+}

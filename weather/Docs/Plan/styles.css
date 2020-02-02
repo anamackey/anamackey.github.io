@@ -47,7 +47,16 @@ nav ul{
 
 
   /*phone or baseline view*/
-
+@media screen and (max-width:37.5em) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
   nav{
     display: flex;
     flex-direction: column;
@@ -58,10 +67,12 @@ nav ul{
 }
 /* tablet views*/
 
-@media screen and (min-width:37.5em) { nav{
+@media screen and (min-width:37.5em) { 
+    nav{
     display: flex;
     flex-direction: column;
-    background-color: blueviolet
+    color: violet;
+    background-color: violet;
 }
 
   main{
@@ -76,6 +87,8 @@ nav ul{
 @media only screen and (min-width:60em) {
 
     nav{
+        color: red;
+        background-color: red;
         display: flex;
         flex-direction: column;
     }
