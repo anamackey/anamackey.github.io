@@ -27,7 +27,7 @@ nav ul{
 
 
   /*phone or baseline view*/
-  @media screen and (max-width:37.5em) {
+  @media screen and (max-width:35em) {
 
 nav button {
     margin: .2rem 2%;
