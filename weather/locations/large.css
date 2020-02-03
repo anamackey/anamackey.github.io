@@ -32,65 +32,8 @@ ul{
 
 /* desktop views*/
 
-@media only screen and (min-width:60em) {
+@media only screen and (min-width:64rem) {
 
-    nav{
-        color: red;
-        background-color: red;
-        display: flex;
-        flex-direction: column;
-    }
+nav ul li a {padding: .6 1rem;}
     
- main{
-     display: flex;
-     flex-direction: column;
- }
-
- .box0{
-    width: 75px;
-    border: 15px solid whitesmoke;
-    padding: 50px;
-    margin: 20px;
-    font-family: 'Abel', sans-serif;
-}
-
-.box1{
-    width: 300px;
-    border: 15px solid whitesmoke;
-    padding: 50px;
-    margin: 20px;
-    font-family: 'Abel', sans-serif;
-}
-
-.box2{
-    height: 100px;
-    width: 75px;
-    border: 15px solid whitesmoke;
-    padding: 50px;
-    margin: 20px;
-    font-family: 'Abel', sans-serif;
-}
-
-.box3{
-    height: 100px;
-    width: 75px;
-    border: 15px solid whitesmoke;
-    padding: 50px;
-    margin: 20px;
-    font-family: 'Abel', sans-serif;
-}
-
-.box4{
-    height: 100px;
-    width: 75px;
-    border: 15px solid whitesmoke;
-    padding: 50px;
-    margin: 20px;
-    font-family: 'Abel', sans-serif;
-}
-
-
-
-
-
 }

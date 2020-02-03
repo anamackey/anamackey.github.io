@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="small.css">
     <link href="https://fonts.googleapis.com/css?family=Abel|Fjalla+One&display=swap" rel="stylesheet">
     <title>Weather 365 </title>
-   
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -19,15 +19,16 @@
      <h1> WEATHER 365 </h1> 
 <p> Always Prepared</p>
     </header>
-    <nav>
+    <nav class="clearfix">
 
-            <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="preston.html">Preston </a></li>
-                    <li><a href="">Soda Springs</a></li>  
-                
-                           
-                </ul>
+        <button onclick="toggleMenu()"> &#9776; </button>
+
+            <ul id="primaryNav" class="hide">
+
+                    <li><a href="#">Home</a></li>
+                    <li class="active"><a href="preston.html">Preston </a></li>
+                    <li><a href="">Soda Springs</a></li>           
+             </ul>
 
 
     </nav>
