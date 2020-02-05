@@ -1,11 +1,8 @@
 body {
-    background-color: rgb(168, 166, 166);
+    background-color: rgb(209, 206, 206);
 }
 
-header {
-    background-color: rgb(156, 203, 241);
-    color:white;
-}
+
 
 h1{
  color:rgb(255, 255, 255);
@@ -30,10 +27,25 @@ ul{
 
 
 
+
 /* desktop views*/
 
 @media only screen and (min-width:64rem) {
 
 nav ul li a {padding: .6 1rem;}
-    
+ 
+.box0{
+    display:flex;
+    justify-content: center;
+}
+
+
+nav ul{
+    list-style: none;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 }
