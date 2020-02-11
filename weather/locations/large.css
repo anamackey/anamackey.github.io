@@ -2,50 +2,42 @@ body {
     background-color: rgb(209, 206, 206);
 }
 
-
-
-h1{
- color:rgb(255, 255, 255);
- font-family:'Fjalla One', sans-serif;
+h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Fjalla One', sans-serif;
 }
 
 p {
     font-family: 'Abel', sans-serif;
-    color:white;
+    color: white;
 }
 
-nav ul{
+nav ul {
     list-style: none;
-    color:white;
+    color: white;
     display: flex;
     justify-content: space-evenly;
 }
 
-ul{
+ul {
     font-family: 'Abel', sans-serif;
 }
-
-
 
 
 /* desktop views*/
 
 @media only screen and (min-width:64rem) {
-
-nav ul li a {padding: .6 1rem;}
- 
-.box0{
-    display:flex;
-    justify-content: center;
-}
-
-
-nav ul{
-    list-style: none;
-    color:white;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
+    nav ul li a {
+        padding: .6 1rem;
+    }
+    .box0 {
+        display: flex;
+        justify-content: center;
+    }
+    nav ul {
+        list-style: none;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
