@@ -1,0 +1,131 @@
+.component {
+    width: 200px;
+    height: 200px;
+    background-color: darkgray;
+    position: relative;
+    border-radius: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.inner {
+    min-width: 150px;
+    min-height: 150px;
+    background-color: #fff;
+    border-radius: 90%;
+    align-self: center;
+    margin-left: -65px;
+}
+
+z:index {}
+
+.weathercomponent {}
+
+.slider {
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 89;
+    height: 13%;
+    width: 13%;
+}
+
+.o1 {
+    transform: translate(180px, -36px);
+}
+
+.o2 {
+    transform: translate(220px, -22px)
+}
+
+.o3 {
+    transform: translate(245px, 20px)
+}
+
+.o4 {
+    transform: translate(243px, 76px)
+}
+
+.o5 {
+    transform: translate(213px, 140px)
+}
+
+.o6 {
+    transform: translate(155px, 175px)
+}
+
+.o7 {
+    transform: translate(82px, 188px)
+}
+
+.o8 {
+    transform: translate(5px, 175px)
+}
+
+.o9 {
+    transform: translate(-50px, 135px)
+}
+
+.o10 {
+    transform: translate(-80px, 75px)
+}
+
+.o11 {
+    transform: translate(-85px, 20px)
+}
+
+
+/*inner*/
+
+.i1 {
+    transform: translate(-78px, -8px)
+}
+
+.i2 {
+    transform: translate(-45px, 0px)
+}
+
+.i3 {
+    transform: translate(-22px, 30px)
+}
+
+.i4 {
+    transform: translate(-18px, 76px)
+}
+
+.i5 {
+    transform: translate(-38px, 120px)
+}
+
+.i6 {
+    transform: translate(-75px, 150px)
+}
+
+.i7 {
+    transform: translate(-127px, 165px)
+}
+
+.i8 {
+    transform: translate(-185px, 150px)
+}
+
+.i9 {
+    transform: translate(-220px, 118px)
+}
+
+.i10 {
+    transform: translate(-238px, 75px)
+}
+
+.i11 {
+    transform: translate(-240px, 30px)
+}
+
+
+/*center*/
+
+.center {
+    transform: translate(-180px, 95px)
+}
