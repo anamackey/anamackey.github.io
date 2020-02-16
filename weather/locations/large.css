@@ -41,3 +41,16 @@ ul {
         justify-content: space-evenly;
     }
 }
+
+
+/*weather component*/
+
+.weather-specifics {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1em;
+}
