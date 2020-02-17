@@ -5,25 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/weather/Docs/weather-images.css">
+    <title>weather images</title>
 </head>
 
 <body>
     <header>
         <h1>
+            Photo Optomization
         </h1>
 
     </header>
 
     <main>
-        <picture>
-            <source type="" <source type="" <img src="" alt="" </picture>
+        <div id="plpictures">
 
+            <picture class="sunny">
+                <source media="(min-width:768px)" srcset="/weather/images/sunny.jpg">
+                <img src="/weather/images/sunny-small.jpg" alt="sunny">
+            </picture>
 
+            <picture class="cloud">
+                <source media="(min-width:768px)" srcset="/weather/images/cloud.jpg">
+                <img src="/weather/images/clouds-small.jpg" alt="cloudy">
+            </picture>
+
+            <picture class="fog">
+                <source media="(min-width:768px)" srcset="/weather/images/fog.jpg">
+                <img src="/weather/images/fog-small.jpg" alt="foggy">
+            </picture>
+
+            <picture class="rain">
+                <source media="(min-width:768px)" srcset="/weather/images/rain.jpg">
+                <img src="/weather/images/rain-small.jpg" alt="rainy">
+            </picture>
+
+            <picture class="snow">
+                <source media="(min-width:768px)" srcset="/weather/images/snow.jpg">
+                <img src="/weather/images/snow-small.jpg" alt="snowy">
+            </picture>
+
+        </div>
     </main>
 
-
-
+    <footer>
+        <script src="/weather/Docs/weather-images.js" defer></script>
+    </footer>
 </body>
 
 </html>

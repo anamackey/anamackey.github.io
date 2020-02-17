@@ -2,3 +2,28 @@
     min-width: 50px;
     min-height: 50px;
 }
+
+#plpictures {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.sunny img {
+    width: 50%
+}
+
+.cloud img {
+    width: 50%
+}
+
+.fog img {
+    width: 50%
+}
+
+.rain img {
+    width: 50%
+}
+
+.snow img {
+    width: 50%
+}
