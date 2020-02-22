@@ -43,18 +43,19 @@
         <br>
 
 
-        <div class="Current Conditions">
+        <div class="currentconditions">
             <h1>Current Conditions</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dignissimos ipsa voluptatem quibusdam! Ex, quidem facilis. Dignissimos obcaecati repellat ratione nesciunt architecto quidem sint a molestiae nostrum quam? Ducimus, minus.
+            <p id="feelTemp">
+                Feels Like...
             </p>
         </div>
 
-        <div class="box2, weather-specifics">
+        <div class="weather-specifics">
             <section id="temperature" class="box">
                 <h3> TEMPERATURE </h3>
                 <!--Dial For Temperature-->
-                <div class="component">
+                <div class="outer">
+                    <!--outer numbers or icons-->
                     <div class="o1">
                         <p>51</p>
                     </div>
@@ -88,10 +89,11 @@
                     <div class="o11">
                         <p>71</p>
                     </div>
+                    <!--inner circle-->
                     <div class="inner"></div>
-
+                    <!--dot that covers inner numbers-->
                     <div class="slider"></div>
-
+                    <!--inner numbers-->
                     <div class="i1">
                         <p>0</p>
                     </div>
@@ -125,6 +127,7 @@
                     <div class="i11">
                         <p>10</p>
                     </div>
+                    <!--center icon-->
                     <div class="center">&#8457</div>
                 </div>
 
@@ -138,7 +141,8 @@
             <section id="precipitation" class="box">
                 <h3> PRECIPITATION </h3>
                 <!--Dial For Precipitation-->
-                <div class="component">
+                <div class="outer">
+                    <!--outer numbers or icons-->
                     <div class="o1">
                         <p>51</p>
                     </div>
@@ -172,9 +176,9 @@
                     <div class="o11">
                         <p>71</p>
                     </div>
+                    <!--inner circle-->
                     <div class="inner"></div>
 
-                    <div class="slider"></div>
 
                     <div class="i1">
                         <p>0</p>
@@ -221,7 +225,7 @@
             <section id="conditions" class="box">
                 <h3> CONDITIONS </h3>
                 <!--Dial For Conditions-->
-                <div class="component">
+                <div class="outer">
                     <div class="o1">
                         <p>🌩</p>
                     </div>
@@ -309,10 +313,9 @@
 
     <footer>
         <p> &copy;2019 | Ana Buendia |<a href="https://developer.mozilla.org/en-US/">MDN Documentation Site</a> | BYU-Idaho<br> Last Update: <span id="demo"></span>
-            <script src="/index.js"></script>
+
     </footer>
-
-
+    <script src="/weather/js/functions.js"></script>
 </body>
 
 </html>
