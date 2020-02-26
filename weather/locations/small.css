@@ -1,9 +1,9 @@
 header {
     color: white;
     border-radius: 25px;
-    background: rgb(255, 251, 23);
+    background: rgb(106, 188, 255);
     padding: 20px;
-    width: 90%;
+    width: 95%;
     height: 150px;
 }
 
@@ -29,7 +29,43 @@ h1 {
     font-size: 1.3em;
 }
 
-@media only screen and (max-width:34em) {
+.currentconditions {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #999;
+    max-width: 50vw;
+    border-radius: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.all-components {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+
+/* Background Pictures for Summary */
+
+#temperature,
+#precipitation,
+#conditions {
+    text-align: center;
+}
+
+@media only screen and (max-width:35em) {
+    .all-components {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 1em;
+    }
     nav ul {
         list-style: none;
         color: rgb(255, 129, 129);
@@ -101,51 +137,6 @@ main {
     justify-content: center;
 }
 
-.box0 {
-    height: 50px;
-    width: 50px;
-    border: 15px solid rgb(255, 255, 255);
-    padding: 50px;
-    margin: 20px;
-    font-family: 'Abel', sans-serif;
-}
-
-.box1 {
-    height: 100px;
-    width: 80%;
-    border: 15px solid rgb(255, 255, 255);
-    padding: 50px;
-    margin: 20px;
-    font-family: 'Abel', sans-serif;
-}
-
-.box2 {
-    height: 100px;
-    width: 100px;
-    border: 15px solid rgb(255, 255, 255);
-    padding: 50px;
-    margin: 20px;
-    font-family: 'Abel', sans-serif;
-}
-
-.box3 {
-    height: 100px;
-    width: 100px;
-    border: 15px solid whitesmoke;
-    padding: 50px;
-    margin: 20px;
-    font-family: 'Abel', sans-serif;
-}
-
-.box4 {
-    height: 100px;
-    width: 100px;
-    border: 15px solid whitesmoke;
-    padding: 50px;
-    margin: 20px;
-    font-family: 'Abel', sans-serif;
-}
-
 
 /*weather component */
 
@@ -154,7 +145,7 @@ main {
     flex-direction: column;
 }
 
-.component {
+.outer {
     width: 200px;
     height: 200px;
     background-color: darkgray;
@@ -171,115 +162,200 @@ main {
     background-color: #fff;
     border-radius: 90%;
     align-self: center;
-    margin-left: -65px;
-}
-
-z:index {}
-
-.slider {
     position: absolute;
-    display: block;
-    border-radius: 50%;
-    background-color: black;
-    z-index: 89;
-    height: 13%;
-    width: 13%;
 }
 
 .o1 {
-    transform: translate(180px, -36px);
+    position: absolute;
+    top: -37px;
+    right: 88px;
 }
 
 .o2 {
-    transform: translate(220px, -22px)
+    /*transform: translate(220px, -22px)*/
+    position: absolute;
+    top: -27px;
+    right: 39px;
 }
 
 .o3 {
-    transform: translate(245px, 20px)
+    position: absolute;
+    top: 17px;
+    right: -5px;
 }
 
 .o4 {
-    transform: translate(243px, 76px)
+    position: absolute;
+    top: 72px;
+    right: -20px;
 }
 
 .o5 {
-    transform: translate(213px, 140px)
+    position: absolute;
+    top: 132px;
+    right: -6px;
 }
 
 .o6 {
-    transform: translate(155px, 175px)
+    position: absolute;
+    top: 174px;
+    right: 37px;
 }
 
 .o7 {
-    transform: translate(82px, 188px)
+    position: absolute;
+    top: 185px;
+    right: 91px;
 }
 
 .o8 {
-    transform: translate(5px, 175px)
+    position: absolute;
+    top: 174px;
+    right: 144px;
 }
 
 .o9 {
-    transform: translate(-50px, 135px)
+    position: absolute;
+    top: 132px;
+    right: 191px;
 }
 
 .o10 {
-    transform: translate(-80px, 75px)
+    position: absolute;
+    top: 72px;
+    right: 204px;
 }
 
 .o11 {
-    transform: translate(-85px, 20px)
+    position: absolute;
+    top: 14px;
+    right: 192px;
 }
 
 
 /*inner*/
 
 .i1 {
-    transform: translate(-78px, -8px)
+    /*transform: translate(-78px, -8px)*/
+    position: absolute;
+    top: -14px;
+    right: 93px;
 }
 
 .i2 {
-    transform: translate(-45px, 0px)
+    /*transform: translate(-45px, 0px)*/
+    position: absolute;
+    top: -1px;
+    right: 49px;
 }
 
 .i3 {
-    transform: translate(-22px, 30px)
+    position: absolute;
+    top: 28px;
+    right: 21px;
 }
 
 .i4 {
-    transform: translate(-18px, 76px)
+    position: absolute;
+    top: 74px;
+    right: 9px;
 }
 
 .i5 {
-    transform: translate(-38px, 120px)
+    position: absolute;
+    top: 117px;
+    right: 20px;
 }
 
 .i6 {
-    transform: translate(-75px, 150px)
+    position: absolute;
+    top: 152px;
+    right: 51px;
 }
 
 .i7 {
-    transform: translate(-127px, 165px)
+    position: absolute;
+    top: 162px;
+    right: 95px;
 }
 
 .i8 {
-    transform: translate(-185px, 150px)
+    position: absolute;
+    top: 151px;
+    right: 138px;
 }
 
 .i9 {
-    transform: translate(-220px, 118px)
+    position: absolute;
+    top: 117px;
+    right: 171px;
 }
 
 .i10 {
-    transform: translate(-238px, 75px)
+    position: absolute;
+    top: 74px;
+    right: 183px;
 }
 
 .i11 {
-    transform: translate(-240px, 30px)
+    position: absolute;
+    top: 28px;
+    right: 153px;
 }
 
 
 /*center*/
 
 .center {
-    transform: translate(-180px, 95px)
+    position: absolute;
+    top: 92px;
+    right: 92px;
+}
+
+
+/*ball slider*/
+
+.slider {
+    /* position: absolute;
+    display: block; */
+    border-radius: 50%;
+    background-color: black;
+    z-index: 80;
+    height: 30px;
+    width: 30px;
+}
+
+
+/*backgroundimages*/
+
+.sunny {
+    background-image: url("/weather/images/sunny.jpg");
+}
+
+.snowy {
+    background-image: url("/weather/images/snow.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: .75;
+}
+
+.rainy {
+    background-image: url("/weather/images/rain.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: .75;
+}
+
+.cloudy {
+    background-image: url("/weather/images/cloud.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: .75;
+}
+
+.foggy {
+    background-image: url("/weather/images/fog.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: .75;
 }
