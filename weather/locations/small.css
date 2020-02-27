@@ -3,8 +3,8 @@ header {
     border-radius: 25px;
     background: rgb(106, 188, 255);
     padding: 20px;
-    width: 95%;
-    height: 150px;
+    width: 92%;
+    height: 125px;
 }
 
 .logobox {
@@ -31,12 +31,13 @@ h1 {
 
 .currentconditions {
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 2px 2px 2px #999;
     max-width: 50vw;
     border-radius: 40px;
     text-align: center;
-    margin: 0 auto;
+    margin: 3%;
+    background-color: #6abbff;
 }
 
 .all-components {
@@ -44,8 +45,7 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     width: 95%;
-    margin: 0 auto;
-    padding-bottom: 2em;
+    margin: 20%;
 }
 
 
@@ -65,6 +65,7 @@ h1 {
         width: 100%;
         margin: 0 auto;
         padding-bottom: 1em;
+        align-items: center;
     }
     nav ul {
         list-style: none;
@@ -82,15 +83,17 @@ h1 {
         bottom: 0;
     }
     nav ul {
-        background-color: red;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: antiquewhite;
+        opacity: 90%;
+        z-index: 10;
     }
     nav ul {
         list-style-type: none;
         padding: 0;
-        margin: 0;
         display: flex;
         flex-direction: column;
+        margin-bottom: 9%;
     }
     ul {
         display: flex;
@@ -98,6 +101,7 @@ h1 {
         list-style: none;
         justify-content: space-evenly;
         position: fixed;
+        right: 0%;
         bottom: 0;
     }
     nav ul li a {
@@ -116,6 +120,13 @@ h1 {
     }
     nav ul.hide {
         display: none;
+    }
+    button {
+        line-height: 2;
+        box-sizing: inherit;
+        position: absolute;
+        right: 5px;
+        font-size: 110%;
     }
 }
 
@@ -330,34 +341,36 @@ main {
 
 .sunny {
     background-image: url("/weather/images/sunny.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .snowy {
     background-image: url("/weather/images/snow.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    opacity: .75;
+    opacity: .90;
 }
 
 .rainy {
     background-image: url("/weather/images/rain.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    opacity: .75;
+    opacity: .90;
 }
 
 .cloudy {
     background-image: url("/weather/images/cloud.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    opacity: .75;
+    opacity: .90;
 }
 
 .foggy {
     background-image: url("/weather/images/fog.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    opacity: .75;
+    opacity: .90;
 }
 
 @media only screen and (max-width:45em) {
@@ -368,24 +381,24 @@ main {
         background-image: url("/weather/images/snow-small.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
-        opacity: .75;
+        opacity: .90;
     }
     .rainy {
         background-image: url("/weather/images/rain-small.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
-        opacity: .75;
+        opacity: .90;
     }
     .cloudy {
         background-image: url("/weather/images/clouds-small.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
-        opacity: .75;
+        opacity: .90;
     }
     .foggy {
         background-image: url("/weather/images/fog-small.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
-        opacity: .75;
+        opacity: .90;
     }
 }
