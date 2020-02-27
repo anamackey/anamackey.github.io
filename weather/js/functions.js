@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-console.log("my javascript is being read.")
-    //test to see if Javascript is being read
+console.log("my javascript is being read.");
+//test to see if Javascript is being read
 
 
 
@@ -35,11 +35,9 @@ document.getElementById("demo").innerHTML = x;
 
 //handles small screen menu
 
-//function toggleMenu() {
-
-//document.getElementById("primaryNav").classList.toggle("hide");
-//}
-
+// function toggleMenu(toggleMenu) {
+//     toggleMenu.toggle("hide");
+// }
 
 //for pop up menu on nav
 
