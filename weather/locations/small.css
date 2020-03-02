@@ -13,9 +13,7 @@ header {
     padding: 10px;
 }
 
-img {
-    height: 100px;
-}
+img {}
 
 h1 {
     color: rgb(255, 255, 255);
@@ -33,7 +31,6 @@ h1 {
     border: 1px solid #ccc;
     padding: 20px;
     box-shadow: 2px 2px 2px #999;
-    max-width: 50vw;
     border-radius: 40px;
     text-align: center;
     margin: 3%;
@@ -45,17 +42,16 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     width: 95%;
-    margin: 20%;
+}
+
+.currentweather {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 
 /* Background Pictures for Summary */
-
-#temperature,
-#precipitation,
-#conditions {
-    text-align: center;
-}
 
 @media only screen and (max-width:45em) {
     .all-components {
