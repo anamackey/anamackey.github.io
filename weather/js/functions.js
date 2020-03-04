@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
     //implement the time indicator
     let hour = "10";
     timeIndicator(hour);
-    changeSummaryImage("rainy");
+    changeSummaryImage("snowy");
 });
 
 
